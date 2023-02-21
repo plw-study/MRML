@@ -1,4 +1,4 @@
-# submit to ICASSP2023
+# Paper for ICASSP 2023
 Pytorch code for paper: "MRML: Multimodal Rumor Detection by Deep Metric Learning"
 
 # Overview
