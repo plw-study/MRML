@@ -1,29 +1,36 @@
-dataset:
-    val_rate: 0.0
-    val_from: test
 model:
     fusion:
+        type: fusion
         dim_v: 4096
         dim_t: 0
-        dim_hv: 512
-        dim_ht: 512
-        dim_mm: 512
+        dim_hv: 1024
+        dim_ht: 1024
+        dim_mm: 1024
         R: 2
-        activation_v: relu
-        activation_t: relu
+        dropout_v: 0.4
+        dropout_t: 0.4
         dropout_hv: 0.4
         dropout_ht: 0.4
     classif:
         dropout: 0
     fake_dec:
-        hidden1: 62
+        hidden1: 64
         activation1: relu
         activation4: softmax
 optim:
-    triplet_loss_lambda: 1
-    triplet_margin: 0.2
-    pairwise_loss_lambda: 1
-    pairwise_margin: 0.2
+#    fake_dec_lambda: 1
+#    class_loss_lambda: 1
+    tri_loss_beta: 0.3
+    pair_loss_lambda: 0.5
+    pair_margin: 0.2 # 0.5
+    tri_margin: 0.2 # 0.1
+#    class_margin: 0.2
+#    svm_reg: 0.001
+    train_change_num: 2
     print_freq: 10
-    resume: ./logs
+    save_model_dir: /media/hibird/study/ALL_MODELS/MRML
+    resume: /media/hibird/study/ALL_MODELS/MRML
+#    lr_update: 20
+
+
 
