@@ -6,7 +6,14 @@ This directory contains code necessary to run the MRML. MRML is a multimodal rum
 
 # Dataset
 The meta-data of the Weibo and Twitter datasets used in our experiments are available in their papers. 
+
 In this project, we provide the py files for data preparing in the pre_data subdirectory. 
+The meta-data can be downloaded in the following:
+
+- weibo[下载地址](https://pan.baidu.com/s/1S0OxCWRvXsP2cOWdDt_BRg), 提取码：4j7p
+
+- twitter[下载地址](https://pan.baidu.com/s/1GOLqfw4n0XaR33AR7fSqVg)， 提取码：fww9
+  
 
 # Requirements
 The python version is python-3.6.4. The detailed version of some packages is available in requirements.txt.
@@ -21,7 +28,8 @@ The train.py is the main file for running the code.
 $ python train.py
 ```
 # Reference
-Detailed data analysis and method are in our paper:
+Detailed data analysis and method are in our paper.
+If you are insterested in this work, and want to use the dataset or codes in this repository, please star this repository and cite by:
 ```
 @INPROCEEDINGS{peng-MRML,
   author={Peng, Liwen and Jian, Songlei and Li, Dongsheng and Shen, Siqi},
@@ -31,6 +39,6 @@ Detailed data analysis and method are in our paper:
   volume={},
   number={},
   pages={1-5},
-  doi={10.1109/ICASSP49357.2023.10096188}}
-
+  doi={10.1109/ICASSP49357.2023.10096188}
+}
 ```
