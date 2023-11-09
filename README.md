@@ -20,3 +20,17 @@ The train.py is the main file for running the code.
 ```
 $ python train.py
 ```
+# Reference
+Detailed data analysis and method are in our paper:
+```
+@INPROCEEDINGS{peng-MRML,
+  author={Peng, Liwen and Jian, Songlei and Li, Dongsheng and Shen, Siqi},
+  booktitle={ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={MRML: Multimodal Rumor Detection by Deep Metric Learning}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-5},
+  doi={10.1109/ICASSP49357.2023.10096188}}
+
+```
