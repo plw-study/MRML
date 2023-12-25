@@ -16,10 +16,11 @@ The meta-data can be downloaded in the following:
   
 
 # Requirements
+It is recommended to create an anaconda virtual environment to run the code.
 The python version is python-3.6.4. The detailed version of some packages is available in requirements.txt.
 You can install all the required packages using the following command:
 ```
-$ pip install -r requirements.txt
+$ conda install --yes --file requirements.txt
 ```
 
 # Running the code
