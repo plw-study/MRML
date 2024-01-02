@@ -16,7 +16,7 @@ The meta-data can be downloaded in the following:
 
 - weibo[下载地址](https://pan.baidu.com/s/1S0OxCWRvXsP2cOWdDt_BRg), 提取码：4j7p
 
-- twitter[下载地址](https://pan.baidu.com/s/1nQEJTtY2Dm8Jdrn4r5ofRQ)， 提取码：vc8h
+- twitter[下载地址](https://pan.baidu.com/s/1t_J-Y7XntQN1nMMr7q93Ew)， 提取码：nei5
   
 
 # Requirements
