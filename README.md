@@ -7,12 +7,16 @@ This directory contains code necessary to run the MRML. MRML is a multimodal rum
 # Dataset
 The meta-data of the Weibo and Twitter datasets used in our experiments are available in their papers. 
 
+- Multimodal Fusion with Recurrent Neural Networks for Rumor Detection on Microblogs [论文地址](https://dl.acm.org/doi/10.1145/3123266.3123454)
+
+- Verifying Multimedia Use at MediaEval 2016 [项目地址](https://github.com/MKLab-ITI/image-verification-corpus/tree/master/mediaeval2016)
+
 In this project, we provide the py files for data preparing in the pre_data subdirectory. 
 The meta-data can be downloaded in the following:
 
 - weibo[下载地址](https://pan.baidu.com/s/1S0OxCWRvXsP2cOWdDt_BRg), 提取码：4j7p
 
-- twitter[下载地址](https://pan.baidu.com/s/1GOLqfw4n0XaR33AR7fSqVg)， 提取码：fww9
+- twitter[下载地址](https://pan.baidu.com/s/1nQEJTtY2Dm8Jdrn4r5ofRQ)， 提取码：vc8h
   
 
 # Requirements
